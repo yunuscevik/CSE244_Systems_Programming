@@ -1,7 +1,0 @@
-all:
-	gcc -c *.c
-	gcc -o clients clients.o -lpthread -lm
-	gcc -o server server.o matrixMethods.o -lm -lpthread -lrt
-
-clean:
-	rm *.o server client
